@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Gran — Food Of Your Own Choice</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <header class="navbar" id="navbar">
+    <nav class="nav-links">
+      <a href="#about" data-page="home">About Us</a>
+      <a href="#">Menu</a>
+      <a href="#" data-page="gallery">Gallery</a>
+    </nav>
+    <a href="#" class="brand" data-page="home">
+      <div class="brand-name">L'Gran</div>
+      <p>food of your own choice</p>
+    </a>
+    <nav class="nav-links right">
+      <a href="#" data-page="booking">Bookings</a>
+      <a href="#footer">Contact</a>
+      <a href="#">Blog</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  </header>
+
+  <!-- ================= HOME PAGE ================= -->
+  <main data-page="home">
+    <section class="hero">
+      <div class="hero-plates">
+        <img class="plate-img plate-1 photo-tone"
+          src="https://images.unsplash.com/photo-1739907283389-2a2c05deb680?w=460&h=460&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffle plate">
+        <img class="plate-img plate-2 photo-tone"
+          src="https://images.unsplash.com/photo-1643410281656-738ff591fb9d?w=680&h=680&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffle with berries">
+      </div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <h2>Start Your Meal With<br>Our Exclusive Menu</h2>
+          <a href="#" class="learn-more gold">Learn More...</a>
+        </div>
+      </div>
+      <div class="hero-mid">
+        <h1>L'Gran</h1>
+        <p>food of your own choice</p>
+      </div>
+      <div class="hero-cta">
+        <p>Book Your Table<br><span class="gold">Now</span></p>
+      </div>
+    </section>
+
+    <section class="about reveal" id="about">
+      <div class="about-text">
+        <h2><span class="wave">〜</span>ABOUT <span class="brand-word">L'Gran</span><span class="wave">〜</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit sint optio fugiat perspiciatis! Libero
+          corrupti ratione dolorum temporibus. Tempora totam repellat sint blanditiis minima nemo mollitia nobis commodi
+          adipisci corrupti est, veritatis, corporis, atque incidunt earum! Ad similique maxime nemo quae dolorem
+          tempora deleniti!</p>
+        <a href="#" class="cta-link" data-page="booking">Visit OR Book <span class="gold">NOW</span></a>
+      </div>
+      <div class="about-img">
+        <img class="photo-tone"
+          src="https://images.unsplash.com/photo-1464219647042-1635b7bfde66?w=500&h=500&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffle plate at L'Gran">
+      </div>
+    </section>
+
+    <section class="food-quality reveal">
+      <div class="fq-img">
+        <img class="photo-tone"
+          src="https://images.unsplash.com/photo-1717768024023-73768e73f630?w=700&h=500&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Fresh dessert plate at L'Gran">
+      </div>
+      <div class="fq-text">
+        <h2><span class="wave">〜</span>Our Food Quality<span class="wave">〜</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, totam in. Suscipit maxime vel non saepe,
+          ipsam aliquid molestiae laborum pariatur dolor exercitationem obcaecati sit?</p>
+        <h3>Double The Fun On<br>Every Saturday</h3>
+        <p class="discount gold">Get Upto 50% Discount</p>
+      </div>
+    </section>
+
+    <section class="best-meal reveal">
+      <div class="bm-text">
+        <h3 class="gold">Enjoy Our Best Meal</h3>
+        <p>Lorem ipsum, sit amet consectetur adipisicing elit. Hic harum vero odio rerum voluptate impedit consectetur,
+          beatae tempore cupiditate, quos eius. Impedit aspernatur modi pariatur.</p>
+        <a href="#footer" class="cta-link gold">Contact Us Now</a>
+      </div>
+      <div class="bm-img">
+        <img class="photo-tone"
+          src="https://images.unsplash.com/photo-1643410281656-738ff591fb9d?w=560&h=340&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Best meal plate at L'Gran">
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= GALLERY PAGE ================= -->
+  <main data-page="gallery" hidden>
+    <section class="page-heading">
+      <h2><span class="wave">〜</span>Gallery<span class="wave">〜</span></h2>
+    </section>
+    <section class="gallery-grid">
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1739907283389-2a2c05deb680?w=500&h=500&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffle plate"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1643410281656-738ff591fb9d?w=500&h=360&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffles in a pan"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1464219647042-1635b7bfde66?w=500&h=600&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Waffle close up"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1717768024023-73768e73f630?w=500&h=420&fit=crop&crop=entropy&auto=format&q=80"
+          alt="Dessert plate"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1643410281656-738ff591fb9d?w=500&h=340&fit=crop&crop=top&auto=format&q=80"
+          alt="Waffle stack"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1739907283389-2a2c05deb680?w=500&h=460&fit=crop&crop=bottom&auto=format&q=80"
+          alt="Waffle on plate"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1717768024023-73768e73f630?w=500&h=400&fit=crop&crop=left&auto=format&q=80"
+          alt="Dessert close up"></figure>
+      <figure><img class="photo-tone"
+          src="https://images.unsplash.com/photo-1464219647042-1635b7bfde66?w=500&h=520&fit=crop&crop=right&auto=format&q=80"
+          alt="Plated waffle"></figure>
+    </section>
+  </main>
+
+  <!-- ================= BOOKING PAGE ================= -->
+  <main data-page="booking" hidden>
+    <section class="page-heading">
+      <h2><span class="wave">〜</span>Book Now<span class="wave">〜</span></h2>
+      <p>Book Your Table Now And Have A Great Meal!</p>
+    </section>
+    <section class="booking-section">
+      <form class="booking-form" id="bookingForm">
+        <div class="field">
+          <label for="name">Your full name ?</label>
+          <input type="text" id="name" name="name" placeholder="Write your name here..." required>
+        </div>
+        <div class="field">
+          <label for="email">Your email address ?</label>
+          <input type="email" id="email" name="email" placeholder="Write your email here..." required>
+        </div>
+        <div class="field">
+          <label for="people">How many people ?</label>
+          <select id="people" name="people">
+            <option>1 people</option>
+            <option>2 people</option>
+            <option>3 people</option>
+            <option>4 people</option>
+            <option>5+ people</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="time">What time ?</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <div class="field">
+          <label for="date">What is the date ?</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="field">
+          <label for="phone">Your phone number ?</label>
+          <input type="tel" id="phone" name="phone" placeholder="Write your number here..." required>
+        </div>
+      </form>
+      <div class="booking-submit">
+        <button type="submit" form="bookingForm">Submit</button>
+      </div>
+    </section>
+  </main>
+
+  <hr class="dotted-divider">
+
+  <footer id="footer" class="reveal">
+    <a href="#" class="brand" data-page="home">
+      <div class="brand-name">L'Gran</div>
+      <p>food of your own choice</p>
+    </a>
+    <nav class="footer-nav">
+      <a href="#about" data-page="home">About Us</a>
+      <a href="#">Menu</a>
+      <a href="#" data-page="booking">Bookings</a>
+      <a href="#" data-page="gallery">Gallery</a>
+      <a href="#footer">Contact</a>
+    </nav>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu open / close
+    document.getElementById('navToggle').addEventListener('click', function () {
+      document.getElementById('navbar').classList.toggle('open');
+    });
+
+    // Navbar ka koi bhi link dabane par mobile menu band ho jaye
+    document.querySelectorAll('.navbar a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        document.getElementById('navbar').classList.remove('open');
+      });
+    });
+
+    function showPage(name) {
+      document.querySelectorAll('main[data-page]').forEach(function (m) {
+        m.hidden = m.dataset.page !== name;
+      });
+      var activeMain = document.querySelector('main[data-page="' + name + '"]');
+      activeMain.querySelectorAll('.reveal').forEach(function (el) {
+        el.classList.remove('in-view');
+      });
+      requestAnimationFrame(function () {
+        activeMain.querySelectorAll('.reveal').forEach(function (el) {
+          void el.offsetWidth;
+          el.classList.add('in-view');
+        });
+      });
+    }
+
+    document.querySelectorAll('a[data-page]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        showPage(link.dataset.page);
+        document.getElementById('navbar').classList.remove('open');
+        var anchor = link.getAttribute('href');
+        if (anchor && anchor.length > 1) {
+          setTimeout(function () {
+            var el = document.querySelector(anchor);
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }, 60);
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    });
+
+    document.getElementById('bookingForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('your booking is cleared.');
+      this.reset();
+    });
+
+    var revealEls = document.querySelectorAll('.reveal');
+    var revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function (el) { revealObserver.observe(el); });
+  </script>
+</body>
+
+</html>
